@@ -3,7 +3,7 @@ sudo apt update -y
 sudo apt install -y git vim wget gnupg lsb-release
 
 
-sudo curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh
+sudo curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install nodejs
 
